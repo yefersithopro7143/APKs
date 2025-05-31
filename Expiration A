@@ -1,6 +1,23 @@
 {
-  "message": "Your app is expired. Extend the validity now to continue enjoying the app thanks!",
-  "expirationDate": "2025-06-01",
-  "dateFormat": "yyyy-MM-dd",
-  "buttonLink": "https://tiendapremiums.store"
+  "enabled": true,
+  "show_after": "2025-03-20",
+  "force_update": false,
+  "title": "Update Available",
+  "message": "A new version is ready. Please update for best experience.
+join my chanel for more @androidmod_ar",
+  "link_text": "See details",
+  "link_url": "https://t.me/androidmod_ar",
+  "buttons": [
+    {
+      "text": "Update Now",
+      "action": "url",
+      "target": "https://t.me/androidmod_ar",
+      "style": "primary"
+    },
+    {
+      "text": "Later",
+      "action": "dismiss",
+      "style": "secondary"
+    }
+  ]
 }
